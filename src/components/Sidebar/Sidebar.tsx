@@ -10,7 +10,7 @@ export default function Sidebar() {
           <h2>Filtros</h2>
         </div>
 
-        <button>Limpar filtro</button>
+        <button className={styles.active}>Limpar filtro</button>
       </div>
 
       <div className={styles.searchBox}>
@@ -37,7 +37,7 @@ export default function Sidebar() {
             <strong>128</strong>
           </li>
 
-          <li>
+          <li className={styles.active}>
             <div>
               <FiBookOpen />
               <span>Desenvolvimento</span>
@@ -45,7 +45,7 @@ export default function Sidebar() {
             <strong>45</strong>
           </li>
 
-          <li>
+          <li className={styles.active}>
             <div>
               <FiCloud />
               <span>Desenvolvimento</span>
@@ -53,7 +53,7 @@ export default function Sidebar() {
             <strong>18</strong>
           </li>
 
-          <li>
+          <li className={styles.active}>
             <div>
               <FiDatabase />
               <span>Dados</span>
@@ -61,7 +61,7 @@ export default function Sidebar() {
             <strong>16</strong>
           </li>
 
-          <li>
+          <li className={styles.active}>
             <div>
               <FiShield />
               <span>Segurança</span>
@@ -69,7 +69,7 @@ export default function Sidebar() {
             <strong>15</strong>
           </li>
 
-          <li>
+          <li className={styles.active}>
             <div>
               <FiCpu />
               <span>IA & Machine learning</span>
@@ -77,7 +77,7 @@ export default function Sidebar() {
             <strong>12</strong>
           </li>
 
-          <li>
+          <li className={styles.active}>
             <div>
               <FiServer />
               <span>Infraestrutura</span>
@@ -85,7 +85,7 @@ export default function Sidebar() {
             <strong>8</strong>
           </li>
 
-          <li>
+          <li className={styles.active}>
             <div>
               <FiHeadphones />
               <span>Soft Skills</span>

@@ -9,15 +9,24 @@ function App() {
   return (
     <div>
       <Topbar />
-      <Hero />
-      <InfoSection />
+      <div className="main">
+        <div className="main-section">
+          <Hero />
+          <InfoSection />
+          <div>
+            <main className="main-subsection">
+              <div className="container">
+                <Sidebar />
+                <CursoSection />
+              </div>
+            </main>
+          </div>
 
-      <main className="main-section">
-        <div className="container">
-          <Sidebar />
-          <CursoSection />
         </div>
-      </main>
+
+      </div>
+
+
     </div>
   );
 }

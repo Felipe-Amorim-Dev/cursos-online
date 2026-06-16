@@ -14,14 +14,12 @@ export default function Topbar() {
       </div>
 
       <nav className={styles.nav}>
-        <a href="#">Início</a>
-        <a href="#" className={styles.active}>
-          Cursos
-        </a>
-        <a href="#">Trilhas</a>
-        <a href="#">Certificações</a>
-        <a href="#">Empresas</a>
-        <a href="#">Sobre nós</a>
+        <a href="#" className={styles.active}>Início</a>
+        <a href="#" className={styles.active}>Cursos</a>
+        <a href="#" className={styles.active}>Trilhas</a>
+        <a href="#" className={styles.active}>Certificações</a>
+        <a href="#" className={styles.active}>Empresas</a>
+        <a href="#" className={styles.active}>Sobre nós</a>
       </nav>
 
       <div className={styles.actions}>

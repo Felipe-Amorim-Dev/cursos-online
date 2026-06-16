@@ -34,7 +34,17 @@ img {
   padding: 0 48px;
 }
 
+.main{
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
 .main-section {
+  max-width: 1440px;
+}
+
+.main-subsection {
     background: #020b16;
     margin-top: -65px;
     padding: 100px 0 36px;
