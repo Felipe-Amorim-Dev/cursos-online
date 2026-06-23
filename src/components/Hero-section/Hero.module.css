@@ -3,7 +3,7 @@
   min-height: 360px;
   background: #020713;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   padding: 40px 70px 70px;
   overflow: hidden;

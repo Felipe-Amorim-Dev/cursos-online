@@ -37,18 +37,18 @@ export default function CursoSection() {
       </div>
 
       <div className={styles.pagination}>
-        <button>
+        <button className={styles.activePage}>
           <FiChevronLeft />
         </button>
 
         <button className={styles.activePage}>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>...</button>
-        <button>10</button>
+        <button className={styles.activePage}>2</button>
+        <button className={styles.activePage}>3</button>
+        <button className={styles.activePage}>4</button>
+        <button className={styles.activePage}>...</button>
+        <button className={styles.activePage}>10</button>
 
-        <button>
+        <button className={styles.activePage}>
           <FiChevronRight />
         </button>
       </div>

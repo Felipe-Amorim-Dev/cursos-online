@@ -1,7 +1,11 @@
 import styles from "./topbar.module.css";
 import { FiSearch, FiBell, FiUser, FiChevronDown, FiCode } from "react-icons/fi";
+import { Navigations } from "../../Hooks/Navigations";
 
 export default function Topbar() {
+
+  const { goToHome, goToCursos } = Navigations();
+
   return (
     <header className={styles.header}>
       <div className={styles.logoArea}>
@@ -14,14 +18,12 @@ export default function Topbar() {
       </div>
 
       <nav className={styles.nav}>
-        <a href="#">Início</a>
-        <a href="#" className={styles.active}>
-          Cursos
-        </a>
-        <a href="#">Trilhas</a>
-        <a href="#">Certificações</a>
-        <a href="#">Empresas</a>
-        <a href="#">Sobre nós</a>
+        <a href="#" className={styles.active} onClick={goToHome}>Início</a>
+        <a href="#" className={styles.active} onClick={goToCursos}>Cursos</a>
+        <a href="#" className={styles.active}>Trilhas</a>
+        <a href="#" className={styles.active}>Certificações</a>
+        <a href="#" className={styles.active}>Empresas</a>
+        <a href="#" className={styles.active}>Sobre nós</a>
       </nav>
 
       <div className={styles.actions}>

@@ -49,7 +49,7 @@
   color: #0d6efd;
 }
 
-.active::after {
+.active:hover::after {
   content: "";
   position: absolute;
   left: 0;
