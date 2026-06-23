@@ -1,0 +1,166 @@
+.section {
+  width: 100%;
+  background: #020b16;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header span {
+  color: #0d6efd;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header h2 {
+  margin-top: 12px;
+  font-size: 42px;
+  color: #fff;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: #08101f;
+  border: 1px solid #162742;
+  border-radius: 14px;
+  padding: 24px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: #0d6efd;
+}
+
+.card img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+
+.card h3 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #93a0b4;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.card button {
+  border: none;
+  background: transparent;
+  color: #0d6efd;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.highlight {
+  background: #08101f;
+  border: 1px solid #162742;
+  border-radius: 18px;
+
+  display: grid;
+  grid-template-columns: 1fr 550px;
+  overflow: hidden;
+}
+
+.content {
+  padding: 48px;
+  background-color: #000D20;
+}
+
+.content span {
+  color: #0d6efd;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.content h3 {
+  margin-top: 12px;
+  color: #fff;
+  font-size: 42px;
+}
+
+.content p {
+  margin-top: 20px;
+  color: #a9b5c8;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+  gap: 28px;
+  margin-top: 28px;
+}
+
+.info div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 18px;
+}
+
+.primaryButton {
+  margin-top: 36px;
+  height: 52px;
+  padding: 0 24px;
+  border: none;
+  border-radius: 8px;
+  background: #0d6efd;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  color: #0d6efd;
+}
+
+.icon svg {
+  font-size: 42px;
+}
+
+.btn{
+  font-size: 16px;
+}

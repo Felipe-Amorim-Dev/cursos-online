@@ -1,3 +1,13 @@
+import imgCsharp from "../assets/img_csharp.png";
+import imgDevops from "../assets/img_devops.png";
+import imgSql from "../assets/img_sql.png";
+import imgSeguranca from "../assets/img_seguranca.png";
+import imgPy from "../assets/img_py.png";
+import imgBi from "../assets/img_bi.png";
+import imgReact from "../assets/img_react.png";
+import imgNode from "../assets/img_node.png";
+import imgAws from "../assets/img_aws.png";
+
 export type Cursos = {
   id: number;
   title: string;
@@ -17,7 +27,7 @@ export const cursos: Cursos[] = [
     level: "Iniciante ao avançado",
     hours: "120h",
     rating: "4.9",
-    image: "/courses/fullstack.jpg",
+    image: imgCsharp,
     tag: "Mais procurado",
   },
   {
@@ -27,7 +37,7 @@ export const cursos: Cursos[] = [
     level: "Intermediário ao avançado",
     hours: "48h",
     rating: "4.8",
-    image: "/courses/devops.jpg",
+    image: imgDevops,
     tag: "Novidade",
   },
   {
@@ -37,7 +47,7 @@ export const cursos: Cursos[] = [
     level: "Iniciante ao intermediário",
     hours: "40h",
     rating: "4.6",
-    image: "/courses/database.jpg",
+    image: imgSql,
   },
   {
     id: 4,
@@ -46,7 +56,7 @@ export const cursos: Cursos[] = [
     level: "Intermediário",
     hours: "36h",
     rating: "4.8",
-    image: "/courses/security.jpg",
+    image: imgSeguranca,
   },
   {
     id: 5,
@@ -55,7 +65,7 @@ export const cursos: Cursos[] = [
     level: "Intermediário",
     hours: "60h",
     rating: "4.9",
-    image: "/courses/ai.jpg",
+    image: imgPy,
   },
   {
     id: 6,
@@ -64,7 +74,7 @@ export const cursos: Cursos[] = [
     level: "Iniciante",
     hours: "28h",
     rating: "4.3",
-    image: "/courses/powerbi.jpg",
+    image: imgBi,
   },
   {
     id: 7,
@@ -73,7 +83,7 @@ export const cursos: Cursos[] = [
     level: "Iniciante ao intermediário",
     hours: "120h",
     rating: "4.7",
-    image: "/courses/react.jpg",
+    image: imgReact,
   },
   {
     id: 8,
@@ -82,7 +92,7 @@ export const cursos: Cursos[] = [
     level: "Iniciante ao intermediário",
     hours: "80h",
     rating: "4.7",
-    image: "/courses/node.jpg",
+    image: imgNode,
   },
   {
     id: 9,
@@ -91,6 +101,6 @@ export const cursos: Cursos[] = [
     level: "Intermediário",
     hours: "24h",
     rating: "4.3",
-    image: "/courses/aws.jpg",
+    image: imgAws,
   },
 ];
