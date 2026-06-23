@@ -3,6 +3,7 @@ import Hero from "./components/Hero-section/Hero";
 import InfoSection from "./components/Info-section/Info-section";
 import Sidebar from "./components/Sidebar/Sidebar";
 import CursoSection from "./components/Curso-section/Curso-section";
+import Footer from "./components/Footer/Footer";
 import "./index.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 <CursoSection />
               </div>
             </main>
+            <Footer />
           </div>
 
         </div>
